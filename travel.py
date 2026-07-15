@@ -2,7 +2,7 @@ iimport gradio as gr
 import requests
 import os
 
-FASTAPI_URL="https://travel-planner-backend-m8aw.onrender.com"
+FASTAPI_URL="https://travel-planner-backend-m8aw.onrender.com/plan_trip"
 
 def get_plan(destination, days, budget, interests):
     try:
