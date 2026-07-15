@@ -37,7 +37,7 @@ demo = gr.Interface(
         gr.Textbox(label="Interests")
     ],
     outputs="text",
-    title="🌍 AI Travel Planner (Gradio)",
+    title="🌍 AI Travel Planner ",
     description="Generate personalized itineraries using Gemini + FastAPI"
 )
 
